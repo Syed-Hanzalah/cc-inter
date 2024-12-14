@@ -5339,4 +5339,18 @@ font-family: chivo;
       font-family: chivo;
     }
 
-  
+    @media (max-width:992px) {
+.partners{
+  width: 33.33%;
+}
+      }
+      @media (max-width:768px) {
+        .partners{
+          width: 50%;
+        }
+      }
+      @media (max-width:480px) {
+        .partners{
+          width: 100%;
+        }
+      }

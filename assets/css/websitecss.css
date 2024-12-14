@@ -5142,6 +5142,7 @@ html .site-dropdown-menu.dropdown-side-open-up {
 
     #mainNavMobile {
         position: fixed !important;
+        padding: 10px 0;
         top: 0;
         left: 0;
         display: flex;
