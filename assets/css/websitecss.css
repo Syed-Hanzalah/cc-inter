@@ -1474,6 +1474,7 @@ html[dir="rtl"] .navbar-default .nav.navPages>li {
     border-color: rgba(255, 255, 255, 0.1);
     border-color: var(--home_text_color_rgba_01);
     border-style: solid;
+    box-shadow: rgb(0 0 0 / 35%) 0px 2px 12px 2px;
     background-color: transparent;
 }
 
