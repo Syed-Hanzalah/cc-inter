@@ -5338,6 +5338,9 @@ font-family: chivo;
     .services-category h2{
       font-family: chivo;
     }
+    .i-map{
+      width: 100%;
+    }
 
     @media (max-width:992px) {
 .partners{
