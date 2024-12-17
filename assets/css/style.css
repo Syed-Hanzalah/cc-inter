@@ -5318,7 +5318,9 @@
 text-align: center;
 font-family: chivo;
     }
-    .partners h2{
+    .partners-title{
+      text-align: center;
+      font-family: chivo ;
       padding: 20px 0;
       font-size: 25px;
     }
@@ -5330,7 +5332,7 @@ font-family: chivo;
 
     
     .para{
-      font-family: chivo;
+      /* font-family: chivo; */
       width: 80%;
       margin: auto;
       padding: 20px 0;
