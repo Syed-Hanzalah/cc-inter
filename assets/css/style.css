@@ -5343,6 +5343,9 @@ font-family: chivo;
     .i-map{
       width:100%;
     }
+    .contactUsForm{
+      display: none;
+    }
 
     @media (max-width:992px) {
 .partners{
@@ -5353,9 +5356,10 @@ font-family: chivo;
         .partners{
           width: 50%;
         }
-        .s123-page-header{
+        .s123-page-header ,.about-title{
           padding-top: 20px !important;
         }
+
       }
       @media (max-width:480px) {
         .partners{
