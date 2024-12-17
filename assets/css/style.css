@@ -5353,6 +5353,9 @@ font-family: chivo;
         .partners{
           width: 50%;
         }
+        .s123-page-header{
+          padding-top: 20px !important;
+        }
       }
       @media (max-width:480px) {
         .partners{
