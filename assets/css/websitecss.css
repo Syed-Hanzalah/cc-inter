@@ -5427,7 +5427,7 @@ html[dir="rtl"] .logo_name>div {
 }
 
 .s123-w-l-s div {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .s123-w-l-s .logoLayout_text,
@@ -7197,4 +7197,17 @@ section.s123-module[data-overlay-opacity="true"] .video-bg::after {
 }
 .fa-solid{
     color: #48a4c6;
+}
+@media (max-width: 780px) {
+    .slick-arrow{
+        bottom: -50px;
+        top: unset;
+    }
+    .slick-prev {
+        left: calc(50% - 45px);
+    }
+
+    .slick-next {
+        right: calc(50% - 45px);
+    }
 }
