@@ -5366,3 +5366,53 @@ font-family: chivo;
           width: 100%;
         }
       }
+     
+
+      
+       
+      .container-part {
+        width: auto;
+        overflow: hidden;
+        margin: 50px auto;
+        background: white;
+      }
+      
+      /*header*/
+     
+      /*photobanner*/
+      
+      .photobanner__wrap {
+        display: flex;
+      }
+      
+      .photobanner__wrap:hover .photobanner {
+        animation-play-state: paused;
+      }
+      
+      .photobanner {
+        display: flex;
+        animation-name: swiperAnimation;
+        animation-duration: 30s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      
+      .photobanner img {
+        width: 250px;
+        height: 150px;
+        object-fit: contain;
+        padding-right: 10px;
+      }
+      
+      @keyframes swiperAnimation {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      
+      
+       
+      
